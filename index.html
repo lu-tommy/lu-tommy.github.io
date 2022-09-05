@@ -1,19 +1,52 @@
 <!DOCTYPE html>
 <html>
-<center>
-<body style="background-color:rgb(52, 52, 201);">
-<h1>Hello World</h1>
-<p>My name is Tommy.</p>
-<script>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>M.A.R.V.I.N</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 
-var name = window.prompt('whats your name?') 
-if (name === null){
-   document.write('Welcome!') }
-else{
-    document.write('Welcome '+name+'!')
-}
+    <style>
+        .center {
+          text-align: center;
+        }
+        </style>
+    
+  </head>
+  <body style="background-color: rgb(245, 245, 245);">
+    <div class="container" >
+      
+  <section class="section">
+      
+      <h1 class="title center is-size-1">
+        MARVIN A.I
+      </h1>
+      <div class="columns is-centered">
+      <button class="button is-info m-3">About MARVIN</button>
+    </div>
+      </div>
+      <div class="column is-10 is-offset-1">
+        <textarea class = 'textarea is-large is-size-3 has-fixed-size  ' style="width: 200px;" name="textbox"  rows="15" readonly>
 
+       is that marvin say will appear here
+        </textarea>
+        <br/>
+        <forms>
+       
+        <div class="columns is-centered m-3">
 
-</script>
-</body></center>
+        <input  type='text'class="input" placeholder="talk to marvin here"></input>
+        <input type="submit" class="button is-link is ml-4" >
+
+        </div>
+        </forms>
+        <div class="columns is-2">
+        <a href='http://www.twitter.com/liltlu3'class="button is-link m-3">twitter</a>
+        <a href='http://www.github.com/lu-tommy'class="button is-link m-3">github</a>
+        
+        </div>
+    </div>
+
+  
+  </body>
 </html>
